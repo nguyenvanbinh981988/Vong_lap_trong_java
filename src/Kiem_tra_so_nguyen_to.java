@@ -13,6 +13,7 @@ public class Kiem_tra_so_nguyen_to {
             for (int i= 2;i <= a/2;i++){
                 if (a % i == 0){
                     check = false;
+                    break;
                 }
             }
         } else if(a != 2){
